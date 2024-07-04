@@ -1,0 +1,61 @@
+.list-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .list-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .list-item__input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .list-item__codes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  .list-item__code {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-item__code-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  .list-item__actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .list-item__button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+  .list-item__button:hover {
+    background-color: #0056b3;
+  }
